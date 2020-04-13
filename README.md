@@ -25,4 +25,7 @@ mods folder
  - pyrawores
  - factorio/data/base/locale/[LANGUAGE]/base.cfg
  
+npm install
 node index.js
+
+luaparse - https://github.com/fstirlitz/luaparse
