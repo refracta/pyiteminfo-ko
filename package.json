@@ -1,6 +1,6 @@
 {
   "name": "pyiteminfo-ko",
-  "version": "0.1.5",
+  "version": "0.0.15",
   "description": "Factorio Pyanodons Mod Item Info Extractor (Korean)",
   "main": "index.js",
   "dependencies": {
