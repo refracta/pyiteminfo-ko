@@ -4,7 +4,6 @@
   "description": "Factorio Pyanodons Mod Item Info Extractor (Korean)",
   "main": "index.js",
   "dependencies": {
-    "fengari": "^0.1.4",
     "luaparse": "^0.3.0"
   },
   "devDependencies": {},
