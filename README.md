@@ -1,4 +1,4 @@
-# PyItemInfo-Ko
+PyItemInfo-Ko
 =============
 Factorio Pyanodons Mod Item Info Extractor (Korean)
 ```
