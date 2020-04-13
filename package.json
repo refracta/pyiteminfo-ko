@@ -1,0 +1,27 @@
+{
+  "name": "pyiteminfo-ko",
+  "version": "0.1.5",
+  "description": "Factorio Pyanodons Mod Item Info Extractor (Korean)",
+  "main": "index.js",
+  "dependencies": {
+    "fengari": "^0.1.4",
+    "luaparse": "^0.3.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/refracta/pyiteminfo-ko.git"
+  },
+  "keywords": [
+    "factorio"
+  ],
+  "author": "refracta",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/refracta/pyiteminfo-ko/issues"
+  },
+  "homepage": "https://github.com/refracta/pyiteminfo-ko#readme"
+}
