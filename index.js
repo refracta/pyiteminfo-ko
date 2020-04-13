@@ -13,6 +13,7 @@ function getAllFiles(path) {
     return list;
 }
 
+// https://stackoverflow.com/questions/1068834/object-comparison-in-javascript
 Object.equals = function (x, y) {
     if (x === y)
         return true;
@@ -196,12 +197,13 @@ for (var k of RECIPE_UPDATE) {
 }
 
 
-// TODO 실제 추출시 주석 문제 분석
+
 var GLOBAL_REPLACER = [{
         name: 'replace_ingredient',
         value: ['iron-gear-wheel', 'small-parts-01']
     }
 ];
+
 function getUpdateFlag(n) {
     var flagList = [];
     RECIPE_UPDATE.filter(e => e.target === n).map(e => e.flag).forEach(e => {
@@ -332,11 +334,9 @@ for (var k of RECIPE) {
         }).join('\n');
         if (n === k.name && k.results.length === 1) {
             if (Array.isArray(k.results[0])) {
-                //n = getKoreanNameI(k.results[0]);
                 n = getKoreanNameI(k.results[0]) + ' (' + n + ')';
                 d = getKoreanDescriptionI(k.results[0])
             } else {
-                //n = getKoreanNameI(k.results[0].name);
                 n = getKoreanNameI(k.results[0].name) + ' (' + n + ')';
                 d = getKoreanDescriptionI(k.results[0].name)
             }
