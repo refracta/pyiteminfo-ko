@@ -25,6 +25,7 @@ mods folder
  - pyindustry
  - pypetroleumhandling
  - pyrawores
+ - pykoreanlocale
  - factorio/data/base/locale/[LANGUAGE]/base.cfg
  
 npm install
