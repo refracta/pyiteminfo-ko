@@ -13,7 +13,7 @@ pyrawores_2.0.5 (https://github.com/pyanodon/pyrawores)
 pykoreanlocale_1.1.13 (https://github.com/GimoXagros/pylocale)
 ```
 
-mods folder
+./mods
  - pyalienlife
  - pycoalprocessing
  - pyfusionenergy
