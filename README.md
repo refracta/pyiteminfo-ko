@@ -1,6 +1,6 @@
 PyRecipeInfo-Ko
 =============
-Factorio Pyanodons Mod Item Info Extractor (Korean)
+Factorio Pyanodons Mod Recipe Info Extractor (Korean)
 
 based on Factorio 0.18.17
 ```
