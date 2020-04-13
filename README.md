@@ -1,6 +1,7 @@
 PyRecipeInfo-Ko
 =============
 Factorio Pyanodons Mod Item Info Extractor (Korean)
+based on Factorio 0.18.17
 ```
 pyalienlife_1.5.1 (https://github.com/pyanodon/pyalienlife)
 pycoalprocessing_1.6.8 (https://github.com/pyanodon/pycoalprocessing)
